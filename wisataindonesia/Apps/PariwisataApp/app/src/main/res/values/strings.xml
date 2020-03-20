@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PariwisataApp</string>
+    <string name="res_activitymain_btnreg">REGISTER NOW</string>
+    <string name="res_activitymain_txtcopy">Copyright ©2020 parawisata.id</string>
+    <string name="res_activitymain_txtsignin">SIGN IN</string>
+    <string name="res_activitymain_txtdesksignin">Akses aplikasi dengan menggunakan akun anda</string>
+    <string name="txt_hint_edt_username">Username</string>
+    <string name="txt_password_edt">Password</string>
+    <string name="btn_txt_signin">SIGN IN</string>
+    <string name="txt_imagebutton_back">Back to Dashboard</string>
+    <string name="res_activitymain_txtsignup">SIGN UP</string>
+    <string name="res_activitymain_txtdesksignup">Daftarkan satu akun untuk akses selamanya</string>
+    <string name="txt_hint_edt_namalengkap">Nama Lengkap</string>
+    <string name="txt_hint_edt_jeniskelamin">Jenis Kelamin</string>
+    <string name="txt_passwordconfirm_edt">Confirm Password</string>
+    <string name="txt_hint_edt_email">Set Email</string>
+    <string name="btn_txt_signup">SIGN UP</string>
+</resources>

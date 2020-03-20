@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SigninActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="38dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/res_activitymain_txtsignin"
+            android:textColor="#47525E"
+            android:textSize="19pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/res_activitymain_txtdesksignin"
+            android:textColor="#47525E"
+            android:textSize="7pt" />
+
+
+        <EditText
+            android:id="@+id/edtUsernameSignin"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_signin"
+            android:drawableEnd="@drawable/ic_username_edt"
+            android:drawableRight="@drawable/ic_username_edt"
+            android:fontFamily="sans-serif"
+            android:hint="@string/txt_hint_edt_username"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="7pt" />
+
+        <EditText
+            android:id="@+id/edtPasswordSignin"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="8dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_signin"
+            android:drawableEnd="@drawable/ic_password_edt"
+            android:drawableRight="@drawable/ic_password_edt"
+            android:fontFamily="sans-serif"
+            android:hint="@string/txt_password_edt"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="7pt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="4"
+                android:background="@drawable/button_silver"
+                android:contentDescription="@string/txt_imagebutton_back"
+                android:src="@drawable/ic_back" />
+
+            <Button
+                android:id="@+id/btnSignin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_theme"
+                android:text="@string/btn_txt_signin"
+                android:textColor="#ffff"
+                android:textSize="11pt"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegisterUser"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="#F0F3F7"
+            android:fontFamily="sans-serif-condensed"
+            android:onClick="toRegisterAct"
+            android:text="@string/res_activitymain_btnreg"
+            android:textColor="#BEC5D0"
+            android:textSize="13pt" />
+
+    </LinearLayout>
+
+</RelativeLayout>
